@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Detector</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <h1 class="text-2xl font-bold mb-4 text-center text-gray-800">Bootstrap Detector</h1>
+        <div id="loader" class="text-center">
+            <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto"></div>
+            <p class="mt-2">Detecting Bootstrap...</p>
+        </div>
+        <div id="result" class="text-center text-lg font-semibold mb-2 hidden"></div>
+        <div id="details" class="text-sm text-gray-600 hidden"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
