@@ -2,7 +2,9 @@
 
 Instantly detect Bootstrap on any webpage with style and precision!
 
-![Bootstrap Detector Logo](icon.png)
+<p align="center">
+  <img src="icon.png" alt="Bootstrap Detector Logo" width="150" height="150">
+</p>
 
 ## 🌟 Description
 
